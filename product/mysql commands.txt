@@ -1,0 +1,15 @@
+CREATE  TABLE Products (code VARCHAR(5) Primary Key, title VARCHAR(20), price DECIMAL(4,2), description VARCHAR(200), instock INT);
+
+INSERT INTO Products VALUES("A123", "Stress Ball", 2.00, "Made from recycled foam rubber found in mattresses and furniture", 50);
+
+INSERT INTO Products VALUES("A124", "Pen", 0.50, "Made from recycled metals and plastics without use of environmentally harmful chemicals", 70);
+
+INSERT INTO Products VALUES("A125", "T-shirt", 12.99, "Made from cotton and recycled polyester from recycled plastic bottles", 80);
+
+INSERT INTO Products VALUES("A126", "Water Bottle", 13.99, "Reusable water container made from recycled polycarbonate plastic to ensure durability for repeated use", 40);
+
+INSERT INTO Products VALUES("A127", "Recycling Bin", 8.99, "Made from recyled plastics for the fitting purpose of recycling", 20);
+
+INSERT INTO Products VALUES("A128", "Wristband", 0.65, "Made from recycled scrap rubber, show your enthusiasm for recycling with this wrist band", 0);
+
+CREATE  TABLE Forum (id MEDIUMINT NOT NULL AUTO_INCREMENT, memberid VARCHAR(20), name VARCHAR(20), fpost VARCHAR(500),PRIMARY KEY (id));
